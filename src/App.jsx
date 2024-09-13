@@ -10,7 +10,8 @@ function App() {
   const [ cardDescription, setCardDescription ] = useState('');
 
 
-
+  //! probably will use this so users can search maybe? 
+  // todo This application will 100% need a spell check search like function
   // useEffect(() =>{
   //   fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php')
   //     .then(res => res.json())
@@ -30,13 +31,6 @@ function App() {
         })
     }
   }, [name])
-
-  useEffect(() => {
-    if(data) {
-      console.log('this is the data from name', data)
-    }
-  })
-  
 
   return (
     <>

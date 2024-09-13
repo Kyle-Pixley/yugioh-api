@@ -7,7 +7,6 @@ function NameInput({ setName }) {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log('button hit with name: ', cardName)
         setName(cardName)
     }
 
